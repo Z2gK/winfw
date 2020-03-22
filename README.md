@@ -17,3 +17,7 @@ Parses the output of the windows `netsh advfirewall firewall show rule name=all`
 Parses the output of the windows `netstat -ano` command and outputs basic stats on connections. Requires the Linux `whois` command to run.
 
 TODO: Integrate with the output of `tasklist /svc`, maybe in an improved version.
+
+## tasklistparse.py
+
+Script to produce a dictionary of PID:process. Code to be integrated later.

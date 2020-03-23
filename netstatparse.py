@@ -50,7 +50,7 @@ with open(filename, "r") as fp:
                             d[ip][port] = d[ip][port] + 1                            
                         else:
                             # add new port as key
-                            d(ip)[port] = 1
+                            d[ip][port] = 1
                     else:
                         d[ip] = {}
                         d[ip][port] = 1
